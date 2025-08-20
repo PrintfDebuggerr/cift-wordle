@@ -1,0 +1,1227 @@
+[
+  {
+    "word": "kalem",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "nesne",
+    "frequency": 85
+  },
+  {
+    "word": "kitap",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "nesne",
+    "frequency": 90
+  },
+  {
+    "word": "masa",
+    "length": 4,
+    "difficulty": "easy",
+    "category": "nesne",
+    "frequency": 95
+  },
+  {
+    "word": "araba",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "taşıt",
+    "frequency": 88
+  },
+  {
+    "word": "ev",
+    "length": 2,
+    "difficulty": "easy",
+    "category": "mekan",
+    "frequency": 100
+  },
+  {
+    "word": "güneş",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "doğa",
+    "frequency": 92
+  },
+  {
+    "word": "deniz",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "doğa",
+    "frequency": 87
+  },
+  {
+    "word": "ağaç",
+    "length": 4,
+    "difficulty": "easy",
+    "category": "doğa",
+    "frequency": 89
+  },
+  {
+    "word": "kuş",
+    "length": 3,
+    "difficulty": "easy",
+    "category": "hayvan",
+    "frequency": 94
+  },
+  {
+    "word": "kedi",
+    "length": 4,
+    "difficulty": "easy",
+    "category": "hayvan",
+    "frequency": 91
+  },
+  {
+    "word": "köpek",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "hayvan",
+    "frequency": 86
+  },
+  {
+    "word": "çiçek",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "doğa",
+    "frequency": 83
+  },
+  {
+    "word": "yemek",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "yiyecek",
+    "frequency": 88
+  },
+  {
+    "word": "su",
+    "length": 2,
+    "difficulty": "easy",
+    "category": "içecek",
+    "frequency": 100
+  },
+  {
+    "word": "ekmek",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "yiyecek",
+    "frequency": 90
+  },
+  {
+    "word": "bilgisayar",
+    "length": 11,
+    "difficulty": "hard",
+    "category": "teknoloji",
+    "frequency": 45
+  },
+  {
+    "word": "telefon",
+    "length": 8,
+    "difficulty": "normal",
+    "category": "teknoloji",
+    "frequency": 78
+  },
+  {
+    "word": "internet",
+    "length": 9,
+    "difficulty": "normal",
+    "category": "teknoloji",
+    "frequency": 72
+  },
+  {
+    "word": "programlama",
+    "length": 13,
+    "difficulty": "hard",
+    "category": "teknoloji",
+    "frequency": 35
+  },
+  {
+    "word": "yazılım",
+    "length": 7,
+    "difficulty": "normal",
+    "category": "teknoloji",
+    "frequency": 65
+  },
+  {
+    "word": "oyun",
+    "length": 4,
+    "difficulty": "easy",
+    "category": "eğlence",
+    "frequency": 95
+  },
+  {
+    "word": "müzik",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "sanat",
+    "frequency": 88
+  },
+  {
+    "word": "resim",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "sanat",
+    "frequency": 85
+  },
+  {
+    "word": "spor",
+    "length": 4,
+    "difficulty": "easy",
+    "category": "aktivite",
+    "frequency": 92
+  },
+  {
+    "word": "futbol",
+    "length": 6,
+    "difficulty": "normal",
+    "category": "spor",
+    "frequency": 82
+  },
+  {
+    "word": "basketbol",
+    "length": 9,
+    "difficulty": "normal",
+    "category": "spor",
+    "frequency": 68
+  },
+  {
+    "word": "tenis",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "spor",
+    "frequency": 75
+  },
+  {
+    "word": "yüzme",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "spor",
+    "frequency": 70
+  },
+  {
+    "word": "koşu",
+    "length": 4,
+    "difficulty": "easy",
+    "category": "spor",
+    "frequency": 85
+  },
+  {
+    "word": "okuma",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "aktivite",
+    "frequency": 88
+  },
+  {
+    "word": "yazma",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "aktivite",
+    "frequency": 82
+  },
+  {
+    "word": "konuşma",
+    "length": 8,
+    "difficulty": "normal",
+    "category": "aktivite",
+    "frequency": 75
+  },
+  {
+    "word": "dinleme",
+    "length": 8,
+    "difficulty": "normal",
+    "category": "aktivite",
+    "frequency": 70
+  },
+  {
+    "word": "düşünme",
+    "length": 8,
+    "difficulty": "normal",
+    "category": "aktivite",
+    "frequency": 68
+  },
+  {
+    "word": "öğrenme",
+    "length": 8,
+    "difficulty": "normal",
+    "category": "aktivite",
+    "frequency": 72
+  },
+  {
+    "word": "öğretme",
+    "length": 8,
+    "difficulty": "normal",
+    "category": "aktivite",
+    "frequency": 65
+  },
+  {
+    "word": "çalışma",
+    "length": 8,
+    "difficulty": "normal",
+    "category": "aktivite",
+    "frequency": 78
+  },
+  {
+    "word": "uyuma",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "aktivite",
+    "frequency": 90
+  },
+  {
+    "word": "yeme",
+    "length": 4,
+    "difficulty": "easy",
+    "category": "aktivite",
+    "frequency": 95
+  },
+  {
+    "word": "içme",
+    "length": 4,
+    "difficulty": "easy",
+    "category": "aktivite",
+    "frequency": 92
+  },
+  {
+    "word": "giyinme",
+    "length": 8,
+    "difficulty": "normal",
+    "category": "aktivite",
+    "frequency": 75
+  },
+  {
+    "word": "yıkanma",
+    "length": 8,
+    "difficulty": "normal",
+    "category": "aktivite",
+    "frequency": 80
+  },
+  {
+    "word": "temizlik",
+    "length": 8,
+    "difficulty": "normal",
+    "category": "aktivite",
+    "frequency": 70
+  },
+  {
+    "word": "düzenleme",
+    "length": 10,
+    "difficulty": "hard",
+    "category": "aktivite",
+    "frequency": 55
+  },
+  {
+    "word": "planlama",
+    "length": 9,
+    "difficulty": "normal",
+    "category": "aktivite",
+    "frequency": 65
+  },
+  {
+    "word": "organizasyon",
+    "length": 13,
+    "difficulty": "hard",
+    "category": "aktivite",
+    "frequency": 40
+  },
+  {
+    "word": "yönetim",
+    "length": 8,
+    "difficulty": "normal",
+    "category": "aktivite",
+    "frequency": 60
+  },
+  {
+    "word": "liderlik",
+    "length": 8,
+    "difficulty": "normal",
+    "category": "aktivite",
+    "frequency": 58
+  },
+  {
+    "word": "takım",
+    "length": 4,
+    "difficulty": "easy",
+    "category": "grup",
+    "frequency": 85
+  },
+  {
+    "word": "grup",
+    "length": 4,
+    "difficulty": "easy",
+    "category": "grup",
+    "frequency": 88
+  },
+  {
+    "word": "topluluk",
+    "length": 9,
+    "difficulty": "normal",
+    "category": "grup",
+    "frequency": 62
+  },
+  {
+    "word": "sosyal",
+    "length": 6,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 70
+  },
+  {
+    "word": "güzel",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 92
+  },
+  {
+    "word": "iyi",
+    "length": 3,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 98
+  },
+  {
+    "word": "kötü",
+    "length": 4,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 85
+  },
+  {
+    "word": "büyük",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 90
+  },
+  {
+    "word": "küçük",
+    "length": 6,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 88
+  },
+  {
+    "word": "uzun",
+    "length": 4,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 82
+  },
+  {
+    "word": "kısa",
+    "length": 4,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 80
+  },
+  {
+    "word": "geniş",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 75
+  },
+  {
+    "word": "dar",
+    "length": 3,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 70
+  },
+  {
+    "word": "yüksek",
+    "length": 6,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 78
+  },
+  {
+    "word": "alçak",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 72
+  },
+  {
+    "word": "derin",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 68
+  },
+  {
+    "word": "sığ",
+    "length": 3,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 65
+  },
+  {
+    "word": "kalın",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 70
+  },
+  {
+    "word": "ince",
+    "length": 4,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 75
+  },
+  {
+    "word": "ağır",
+    "length": 4,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 78
+  },
+  {
+    "word": "hafif",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 72
+  },
+  {
+    "word": "sert",
+    "length": 4,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 70
+  },
+  {
+    "word": "yumuşak",
+    "length": 7,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 65
+  },
+  {
+    "word": "sıcak",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 85
+  },
+  {
+    "word": "soğuk",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 82
+  },
+  {
+    "word": "ılık",
+    "length": 4,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 68
+  },
+  {
+    "word": "taze",
+    "length": 4,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 75
+  },
+  {
+    "word": "bayat",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 60
+  },
+  {
+    "word": "yeni",
+    "length": 4,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 90
+  },
+  {
+    "word": "eski",
+    "length": 4,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 88
+  },
+  {
+    "word": "modern",
+    "length": 6,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 70
+  },
+  {
+    "word": "geleneksel",
+    "length": 12,
+    "difficulty": "hard",
+    "category": "sıfat",
+    "frequency": 45
+  },
+  {
+    "word": "uluslararası",
+    "length": 14,
+    "difficulty": "hard",
+    "category": "sıfat",
+    "frequency": 35
+  },
+  {
+    "word": "yerel",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 65
+  },
+  {
+    "word": "global",
+    "length": 6,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 68
+  },
+  {
+    "word": "yerel",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 65
+  },
+  {
+    "word": "evrensel",
+    "length": 9,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 55
+  },
+  {
+    "word": "özel",
+    "length": 4,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 85
+  },
+  {
+    "word": "genel",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 80
+  },
+  {
+    "word": "özel",
+    "length": 4,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 85
+  },
+  {
+    "word": "ortak",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 75
+  },
+  {
+    "word": "bireysel",
+    "length": 9,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 60
+  },
+  {
+    "word": "kolektif",
+    "length": 9,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 55
+  },
+  {
+    "word": "demokratik",
+    "length": 12,
+    "difficulty": "hard",
+    "category": "sıfat",
+    "frequency": 40
+  },
+  {
+    "word": "otoriter",
+    "length": 9,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 45
+  },
+  {
+    "word": "liberal",
+    "length": 7,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 58
+  },
+  {
+    "word": "muhafazakar",
+    "length": 12,
+    "difficulty": "hard",
+    "category": "sıfat",
+    "frequency": 35
+  },
+  {
+    "word": "radikal",
+    "length": 7,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 50
+  },
+  {
+    "word": "ılımlı",
+    "length": 6,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 62
+  },
+  {
+    "word": "aşırı",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 70
+  },
+  {
+    "word": "dengeli",
+    "length": 8,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 65
+  },
+  {
+    "word": "dengesiz",
+    "length": 9,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 55
+  },
+  {
+    "word": "kararlı",
+    "length": 7,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 68
+  },
+  {
+    "word": "kararsız",
+    "length": 9,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 52
+  },
+  {
+    "word": "güvenilir",
+    "length": 10,
+    "difficulty": "hard",
+    "category": "sıfat",
+    "frequency": 48
+  },
+  {
+    "word": "güvenilmez",
+    "length": 11,
+    "difficulty": "hard",
+    "category": "sıfat",
+    "frequency": 42
+  },
+  {
+    "word": "dürüst",
+    "length": 6,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 72
+  },
+  {
+    "word": "yalancı",
+    "length": 7,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 58
+  },
+  {
+    "word": "cesur",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 75
+  },
+  {
+    "word": "korkak",
+    "length": 6,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 65
+  },
+  {
+    "word": "cesur",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 75
+  },
+  {
+    "word": "akıllı",
+    "length": 6,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 80
+  },
+  {
+    "word": "aptal",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 70
+  },
+  {
+    "word": "bilge",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 65
+  },
+  {
+    "word": "cahil",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 60
+  },
+  {
+    "word": "eğitimli",
+    "length": 9,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 55
+  },
+  {
+    "word": "okumamış",
+    "length": 9,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 45
+  },
+  {
+    "word": "deneyimli",
+    "length": 10,
+    "difficulty": "hard",
+    "category": "sıfat",
+    "frequency": 50
+  },
+  {
+    "word": "acemi",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 68
+  },
+  {
+    "word": "uzman",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 72
+  },
+  {
+    "word": "profesyonel",
+    "length": 13,
+    "difficulty": "hard",
+    "category": "sıfat",
+    "frequency": 38
+  },
+  {
+    "word": "amatör",
+    "length": 7,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 55
+  },
+  {
+    "word": "yetenekli",
+    "length": 9,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 58
+  },
+  {
+    "word": "beceriksiz",
+    "length": 10,
+    "difficulty": "hard",
+    "category": "sıfat",
+    "frequency": 45
+  },
+  {
+    "word": "yaratıcı",
+    "length": 9,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 62
+  },
+  {
+    "word": "sıradan",
+    "length": 8,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 55
+  },
+  {
+    "word": "sıra dışı",
+    "length": 10,
+    "difficulty": "hard",
+    "category": "sıfat",
+    "frequency": 42
+  },
+  {
+    "word": "olağan",
+    "length": 7,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 65
+  },
+  {
+    "word": "olağanüstü",
+    "length": 12,
+    "difficulty": "hard",
+    "category": "sıfat",
+    "frequency": 35
+  },
+  {
+    "word": "normal",
+    "length": 6,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 85
+  },
+  {
+    "word": "anormal",
+    "length": 8,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 55
+  },
+  {
+    "word": "standart",
+    "length": 9,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 58
+  },
+  {
+    "word": "özel",
+    "length": 4,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 85
+  },
+  {
+    "word": "genel",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 80
+  },
+  {
+    "word": "özel",
+    "length": 4,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 85
+  },
+  {
+    "word": "ortak",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 75
+  },
+  {
+    "word": "bireysel",
+    "length": 9,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 60
+  },
+  {
+    "word": "kolektif",
+    "length": 9,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 55
+  },
+  {
+    "word": "demokratik",
+    "length": 12,
+    "difficulty": "hard",
+    "category": "sıfat",
+    "frequency": 40
+  },
+  {
+    "word": "otoriter",
+    "length": 9,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 45
+  },
+  {
+    "word": "liberal",
+    "length": 7,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 58
+  },
+  {
+    "word": "muhafazakar",
+    "length": 12,
+    "difficulty": "hard",
+    "category": "sıfat",
+    "frequency": 35
+  },
+  {
+    "word": "radikal",
+    "length": 7,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 50
+  },
+  {
+    "word": "ılımlı",
+    "length": 6,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 62
+  },
+  {
+    "word": "aşırı",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 70
+  },
+  {
+    "word": "dengeli",
+    "length": 8,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 65
+  },
+  {
+    "word": "dengesiz",
+    "length": 9,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 55
+  },
+  {
+    "word": "kararlı",
+    "length": 7,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 68
+  },
+  {
+    "word": "kararsız",
+    "length": 9,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 52
+  },
+  {
+    "word": "güvenilir",
+    "length": 10,
+    "difficulty": "hard",
+    "category": "sıfat",
+    "frequency": 48
+  },
+  {
+    "word": "güvenilmez",
+    "length": 11,
+    "difficulty": "hard",
+    "category": "sıfat",
+    "frequency": 42
+  },
+  {
+    "word": "dürüst",
+    "length": 6,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 72
+  },
+  {
+    "word": "yalancı",
+    "length": 7,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 58
+  },
+  {
+    "word": "cesur",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 75
+  },
+  {
+    "word": "korkak",
+    "length": 6,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 65
+  },
+  {
+    "word": "cesur",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 75
+  },
+  {
+    "word": "akıllı",
+    "length": 6,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 80
+  },
+  {
+    "word": "aptal",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 70
+  },
+  {
+    "word": "bilge",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 65
+  },
+  {
+    "word": "cahil",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 60
+  },
+  {
+    "word": "eğitimli",
+    "length": 9,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 55
+  },
+  {
+    "word": "okumamış",
+    "length": 9,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 45
+  },
+  {
+    "word": "deneyimli",
+    "length": 10,
+    "difficulty": "hard",
+    "category": "sıfat",
+    "frequency": 50
+  },
+  {
+    "word": "acemi",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 68
+  },
+  {
+    "word": "uzman",
+    "length": 5,
+    "difficulty": "easy",
+    "category": "sıfat",
+    "frequency": 72
+  },
+  {
+    "word": "profesyonel",
+    "length": 13,
+    "difficulty": "hard",
+    "category": "sıfat",
+    "frequency": 38
+  },
+  {
+    "word": "amatör",
+    "length": 7,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 55
+  },
+  {
+    "word": "yetenekli",
+    "length": 9,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 58
+  },
+  {
+    "word": "beceriksiz",
+    "length": 10,
+    "difficulty": "hard",
+    "category": "sıfat",
+    "frequency": 45
+  },
+  {
+    "word": "yaratıcı",
+    "length": 9,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 62
+  },
+  {
+    "word": "sıradan",
+    "length": 8,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 55
+  },
+  {
+    "word": "sıra dışı",
+    "length": 10,
+    "difficulty": "hard",
+    "category": "sıfat",
+    "frequency": 42
+  },
+  {
+    "word": "olağan",
+    "length": 7,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 65
+  },
+  {
+    "word": "olağanüstü",
+    "length": 12,
+    "difficulty": "hard",
+    "category": "sıfat",
+    "frequency": 35
+  },
+  {
+    "word": "normal",
+    "length": 6,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 85
+  },
+  {
+    "word": "anormal",
+    "length": 8,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 55
+  },
+  {
+    "word": "standart",
+    "length": 9,
+    "difficulty": "normal",
+    "category": "sıfat",
+    "frequency": 58
+  }
+]

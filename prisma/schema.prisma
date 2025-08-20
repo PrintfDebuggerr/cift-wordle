@@ -1,0 +1,174 @@
+// prisma/schema.prisma
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// Kelime modeli
+model Word {
+  id         Int      @id @default(autoincrement())
+  word       String   @unique
+  length     Int
+  difficulty String   // "easy", "normal", "hard"
+  category   String?  // "isim", "fiil", "sifat", vb.
+  frequency  Int      @default(0) // Kullanım sıklığı
+  createdAt  DateTime @default(now())
+  
+  @@index([length])
+  @@index([difficulty])
+  @@index([length, difficulty])
+}
+
+// Oyun odası modeli
+model Room {
+  id          String   @id @default(cuid())
+  code        String   @unique // 6 karakterlik oda kodu
+  mode        String   // "turn-based" | "duel"
+  status      String   @default("waiting") // "waiting" | "playing" | "finished"
+  wordLength  Int      @default(5)
+  difficulty  String   @default("normal")
+  maxGuesses  Int      @default(6)
+  timeLimit   Int      @default(300) // saniye
+  
+  targetWords Json?    // { playerId: "word" } şeklinde
+  
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  finishedAt  DateTime?
+  
+  players     Player[]
+  games       Game[]
+  
+  @@index([code])
+  @@index([status])
+}
+
+// Oyuncu modeli
+model Player {
+  id        String   @id @default(cuid())
+  name      String
+  avatar    String?
+  
+  roomId    String?
+  room      Room?    @relation(fields: [roomId], references: [id], onDelete: SetNull)
+  
+  isReady   Boolean  @default(false)
+  isOnline  Boolean  @default(true)
+  
+  joinedAt  DateTime @default(now())
+  lastSeen  DateTime @default(now())
+  
+  games     Game[]
+  guesses   Guess[]
+  stats     PlayerStats?
+  
+  @@index([roomId])
+}
+
+// Oyun kaydı modeli
+model Game {
+  id         String   @id @default(cuid())
+  roomId     String
+  room       Room     @relation(fields: [roomId], references: [id], onDelete: Cascade)
+  
+  mode       String   // "turn-based" | "duel"
+  status     String   @default("playing") // "playing" | "finished"
+  
+  winnerId   String?
+  winner     Player?  @relation(fields: [winnerId], references: [id])
+  
+  startedAt  DateTime @default(now())
+  finishedAt DateTime?
+  duration   Int?     // saniye
+  
+  targetWords Json    // { playerId: "word" }
+  finalScores Json?   // { playerId: score }
+  
+  guesses    Guess[]
+  
+  @@index([roomId])
+  @@index([winnerId])
+}
+
+// Tahmin modeli
+model Guess {
+  id       Int      @id @default(autoincrement())
+  
+  gameId   String
+  game     Game     @relation(fields: [gameId], references: [id], onDelete: Cascade)
+  
+  playerId String
+  player   Player   @relation(fields: [playerId], references: [id], onDelete: Cascade)
+  
+  word     String   // Tahmin edilen kelime
+  position Int      // Kaçıncı tahmin
+  result   Json     // [{ letter: "A", status: "correct" }, ...]
+  
+  createdAt DateTime @default(now())
+  
+  @@index([gameId])
+  @@index([playerId])
+  @@index([gameId, position])
+}
+
+// Oyuncu istatistikleri
+model PlayerStats {
+  id            String @id @default(cuid())
+  playerId      String @unique
+  player        Player @relation(fields: [playerId], references: [id], onDelete: Cascade)
+  
+  totalGames    Int    @default(0)
+  gamesWon      Int    @default(0)
+  gamesLost     Int    @default(0)
+  
+  totalGuesses  Int    @default(0)
+  averageGuesses Float @default(0)
+  
+  totalTime     Int    @default(0) // toplam süre (saniye)
+  averageTime   Float  @default(0) // ortalama süre
+  
+  currentStreak Int    @default(0)
+  maxStreak     Int    @default(0)
+  
+  totalScore    Int    @default(0)
+  level         Int    @default(1)
+  experience    Int    @default(0)
+  
+  // Mod bazlı istatistikler
+  turnBasedWins Int    @default(0)
+  turnBasedGames Int   @default(0)
+  duelWins      Int    @default(0)
+  duelGames     Int    @default(0)
+  
+  updatedAt     DateTime @updatedAt
+}
+
+// Başarımlar
+model Achievement {
+  id          String @id @default(cuid())
+  key         String @unique // "first_win", "speed_demon", vb.
+  name        String
+  description String
+  icon        String
+  condition   Json   // Başarım koşulları
+  reward      Int    @default(0) // XP ödülü
+  
+  players     PlayerAchievement[]
+}
+
+// Oyuncu başarımları (many-to-many)
+model PlayerAchievement {
+  playerId      String
+  player        Player      @relation(fields: [playerId], references: [id], onDelete: Cascade)
+  
+  achievementId String
+  achievement   Achievement @relation(fields: [achievementId], references: [id], onDelete: Cascade)
+  
+  unlockedAt    DateTime    @default(now())
+  
+  @@id([playerId, achievementId])
+}
