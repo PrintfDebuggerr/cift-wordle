@@ -177,3 +177,4 @@ MIT License - Detaylar için [LICENSE](LICENSE) dosyasına bakın.
 ---
 
 **Çift Wordle** ile arkadaşlarınla yarış ve Türkçe kelime bilgini test et! 🚀✨
+

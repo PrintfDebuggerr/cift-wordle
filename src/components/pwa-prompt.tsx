@@ -204,3 +204,4 @@ export function usePWAStatus() {
 
   return { isInstalled, isStandalone };
 }
+

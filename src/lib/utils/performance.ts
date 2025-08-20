@@ -388,3 +388,4 @@ export function observeLongTasks(callback: (task: PerformanceEntry) => void): vo
     console.error('Failed to observe long tasks:', error);
   }
 }
+

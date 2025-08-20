@@ -483,3 +483,4 @@ export function toggleMusic(): void {
   const config = manager.getConfig();
   manager.updateConfig({ enableMusic: !config.enableMusic });
 }
+

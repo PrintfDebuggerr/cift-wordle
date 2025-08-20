@@ -414,3 +414,4 @@ export function clearAllOfflineData(): void {
   const detector = getOfflineDetector();
   detector.clearOfflineData();
 }
+

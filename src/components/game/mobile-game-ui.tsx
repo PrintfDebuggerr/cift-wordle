@@ -507,3 +507,4 @@ export function MobileGameUI({
     </div>
   );
 }
+

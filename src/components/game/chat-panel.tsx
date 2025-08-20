@@ -291,3 +291,4 @@ export function ChatPreview({ messages, onOpen, className = '' }: ChatPreviewPro
     </div>
   );
 }
+

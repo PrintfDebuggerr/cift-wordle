@@ -461,3 +461,4 @@ export function testHaptic(): Promise<void> {
   const manager = getHapticManager();
   return manager.test();
 }
+

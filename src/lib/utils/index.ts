@@ -12,3 +12,4 @@ export * from './sound-manager';
 
 // Haptic feedback utilities
 export * from './haptic-manager';
+

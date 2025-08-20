@@ -489,3 +489,4 @@ export default function GamePage() {
     </MobileLayout>
   );
 }
+

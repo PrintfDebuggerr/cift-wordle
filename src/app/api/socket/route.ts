@@ -7,3 +7,4 @@ export async function GET(request: NextRequest) {
 export async function POST(request: NextRequest) {
   return new Response('Socket.io endpoint', { status: 200 })
 }
+

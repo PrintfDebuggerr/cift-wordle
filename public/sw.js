@@ -218,3 +218,4 @@ async function clearOldCaches() {
 
 // Her 24 saatte bir eski cache'leri temizle
 setInterval(clearOldCaches, 24 * 60 * 60 * 1000);
+

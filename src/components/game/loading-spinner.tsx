@@ -326,3 +326,4 @@ export const LoadingStates = {
   Progress: LoadingProgress,
   Infinite: InfiniteSpinner
 };
+

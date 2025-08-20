@@ -431,3 +431,4 @@ export function ResultsSummary({ results, className = '' }: ResultsSummaryProps)
     </div>
   );
 }
+

@@ -332,3 +332,4 @@ export function useResourcePerformance() {
     resourceCount: resources.length
   };
 }
+

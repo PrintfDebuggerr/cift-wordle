@@ -65,3 +65,4 @@ export function LetterTile({ letter, status, index, isFlipping }: LetterTileProp
     </motion.div>
   )
 }
+

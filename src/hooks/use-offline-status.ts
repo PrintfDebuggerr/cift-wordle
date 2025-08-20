@@ -425,3 +425,4 @@ export function useConnectionQuality(): {
 
   return { quality, details };
 }
+

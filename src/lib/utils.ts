@@ -205,3 +205,4 @@ export function hasSafeArea(): boolean {
   
   return CSS.supports('padding-top: env(safe-area-inset-top)')
 }
+
